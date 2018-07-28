@@ -102,3 +102,4 @@ net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 ro.build.aapt.config.prefer=tvdpi
 ro.build.version.sdl=2203
+persist.sys.usb.config=mtp,adb

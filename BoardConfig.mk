@@ -109,3 +109,6 @@ TARGET_KERNEL_CONFIG := gtexswifi_defconfig
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 BOARD_HAS_FLIPPED_SCREEN := true
+
+TARGET_BOARD_INFO_FILE := device/samsung/gtexswifi/board-info.txt
+BOARD_SEPOLICY_DIRS += device/samsung/gtexswifi/sepolicy

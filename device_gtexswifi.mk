@@ -14,3 +14,5 @@ endif
  PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_gtexswifi
 PRODUCT_DEVICE := gtexswifi
+TARGET_VARIANT_CONFIG := gtexswifi_defconfig
+TARGET_SELINUX_CONFIG := gtexswifi_defconfig

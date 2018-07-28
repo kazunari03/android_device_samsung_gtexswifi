@@ -100,3 +100,12 @@ BOARD_SEPOLICY_DIRS += \
 # inherit from the proprietary version
 -include vendor/samsung/gtexswifi/BoardConfigVendor.mk
 
+#
+USE_OPENGL_RENDERER := true
+TARGET_USES_ION := true
+BOARD_EGL_CFG := device/samsung/gtexswifi/egl.cfg
+TARGET_KERNEL_SOURCE := kernel/samsung/gtexswifi
+TARGET_KERNEL_CONFIG := gtexswifi_defconfig
+RECOVERY_VARIANT := twrp
+TW_THEME := portrait_hdpi
+BOARD_HAS_FLIPPED_SCREEN := true
